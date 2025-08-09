@@ -1,0 +1,51 @@
+:root {
+  --amarillo: #fcd305;
+  --negro: #2e2e2e;
+  --blanco: #f6f6f6;
+  --transparente: #36363691;
+}
+
+header{
+    background-image: url(/Perfil_Front/source/img/wll3.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    width: 100%;
+    height: 300px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: var(--negro);
+
+    position: fixed;
+}
+
+.navbar a{
+    width: 100%;
+    padding: 5px 0px;
+
+    height: auto;
+    text-align: center;
+
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: lighter;
+    transition: background-color 0.3s, color 0.3s, font-weight 0.2s;
+}
+
+.navbar a:hover{
+    background-color: var(--amarillo);
+    color: var(--negro);
+    font-weight:bolder;
+}
+
+section:hover{
+    filter: blur(8px);
+}
